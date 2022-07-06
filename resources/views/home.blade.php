@@ -8,6 +8,15 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('/css/home.css') }}" />
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url('/about') }}">about us</a></li>
+                <li><a href="{{ url('/contacts') }}">contacts</a></li>
+                <li><a href="{{ url('/mission') }}">our mission</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
         <h1>Home page</h1>
         <p>Hello Laravel</p>

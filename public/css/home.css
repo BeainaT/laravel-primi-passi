@@ -1,10 +1,32 @@
 body {
     background-color: rgb(30, 28, 28);
+    font-family: sans-serif;
+}
+header {
+    max-width: 75rem;
 }
 .container {
-    max-width: 800px;
+    max-width: 50rem;
     margin: auto;
     color: rgb(224, 156, 9);
     text-align: center;
-    font-family: sans-serif;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(194, 194, 194);
+}
+h1,
+h2,
+a {
+    text-transform: uppercase;
 }
